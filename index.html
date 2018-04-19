@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Picture</title>
+</head>
+<body>
+  <div class="page-body">
+    <main class="page-main">
+      <h1 class="caption caption--h1">Block Picture</h1>
+
+      <section class="block-picture">
+        <a class="a" href="#form">
+          <div class="block-picture__item block-picture__item--first">
+            <button class="btn" type="button">X</button>
+            <img class="block-picture__img block-picture__img--first" src="./img/mercedes-benz-190e.jpg" alt="mercedes-benz-190e" height="auto">
+          </div>
+        </a>
+
+        <a class="a" href="#form">
+          <div class="block-picture__item">
+            <button class="btn" type="button">X</button>
+            <img class="block-picture__img" src="./img/nissan-s15.jpg" alt="nissan-s15" height="auto">
+          </div>
+        </a>
+
+        <a class="a" href="#form">
+          <div class="block-picture__item">
+            <button class="btn" type="button">X</button>
+            <img class="block-picture__img" src="./img/subaru-impreza-wrx.jpg" alt="subaru-impreza-wrx" height="auto">
+          </div>
+        </a>
+
+        <a class="a" href="#form">
+          <div class="block-picture__item">
+            <button class="btn" type="button">X</button>
+            <img class="block-picture__img" src="./img/subaru-impreza.jpg" alt="subaru-impreza" height="auto">
+          </div>
+        </a>
+      </section>
+      <section class="block-form">
+        <form id="form" class="form" action="" style="display: none">
+          <div style="text-align: right; margin-bottom: 5px">
+            <button class="form__btn-close" type="button">X</button>
+          </div>
+          <div class="form__img-wrapper">
+            <img class="form__img form__img--silvia" src="./img/nissan-s15.jpg" alt="" width="300" height="auto">
+          </div>
+          <div>
+            <input class="form__input" type="text" placeholder="Введите e-mail" maxlength="25">
+            <button class="form__btn-push" type="submit">отправить</button>
+          </div>
+        </form>
+      </section>
+      <span style="font-size: 16px">Number of pictures: <span class="score">4</span></span>
+      <button class="btn-return">Return</button>
+    </main>
+  </div>
+  <script src="js/script.min.js"></script>
+</body>
+</html>
